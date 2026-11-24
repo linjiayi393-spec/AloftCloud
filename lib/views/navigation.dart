@@ -3,6 +3,7 @@ import 'package:fl_clash/enum/enum.dart';
 import 'package:fl_clash/models/models.dart';
 import 'package:fl_clash/ui/icons/app_glyphs.dart';
 import 'package:fl_clash/views/views.dart';
+import 'package:fl_clash/features/aloft/views.dart';
 
 class Navigation implements NavigationPort {
   static Navigation? _instance;
@@ -16,7 +17,7 @@ class Navigation implements NavigationPort {
       NavigationItem(
         glyph: AppGlyphs.dashboard,
         label: PageLabel.dashboard,
-        builder: (_) => const DashboardView(),
+        builder: (_) => const AloftDashboard(),
       ),
       NavigationItem(
         glyph: AppGlyphs.proxies,

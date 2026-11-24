@@ -1,3 +1,13 @@
+# Aloft云上游
+
+Android and Windows client for [云上游](https://www.aloft.icu), customized from FlClash.
+Account integration, build instructions and license information: [ALOFT.md](ALOFT.md).
+
+This branch contains the client customization. Preview builds are produced by the
+**Aloft client preview** workflow after checks pass. No production release is declared yet.
+
+Original upstream project documentation follows.
+
 <div align="center">
 
 <img src="assets/images/icon.png" alt="FlClash" width="88">

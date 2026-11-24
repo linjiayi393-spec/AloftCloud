@@ -3,9 +3,9 @@ name: build
 on:
   push:
     branches:
-      - '**'
+      - 'upstream-maintenance'
     tags:
-      - 'v*'
+      - 'upstream-v*'
   workflow_dispatch:
 
 concurrency:

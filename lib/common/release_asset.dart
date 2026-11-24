@@ -1,5 +1,5 @@
 // tool/package.dart imports this on the plain Dart VM: no Flutter imports.
-const releaseFilePrefix = 'FlClash';
+const releaseFilePrefix = 'AloftCloud';
 
 enum ReleaseLine { dev, rs }
 

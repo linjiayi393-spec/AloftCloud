@@ -1,0 +1,11 @@
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/images/aloft-logo.png
+  min_sdk_android: 23
+  adaptive_icon_background: '#F0F6FF'
+  adaptive_icon_foreground: assets/images/aloft-logo.png
+  windows:
+    generate: true
+    image_path: assets/images/aloft-logo.png
+    icon_size: 256

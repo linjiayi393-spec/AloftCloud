@@ -1,7 +1,7 @@
 name: fl_clash
-description: A multi-platform proxy client based on ClashMeta, simple and easy to use, open-source and ad-free.
+description: Aloft cloud subscription client for Android and Windows, based on FlClash.
 publish_to: 'none'
-version: 0.9.4+2026110401
+version: 0.1.0+2026112401
 environment:
   sdk: '>=3.10.0 <4.0.0'
   flutter: '>=3.50.0'
@@ -34,6 +34,7 @@ dependencies:
   ffi: ^2.2.0
 
   dio: ^5.11.1
+  flutter_secure_storage: ^11.2.0
   code_forge:
     path: plugins/code_forge
   re_highlight: ^0.0.3
@@ -57,6 +58,7 @@ dependencies:
   setup:
     path: plugins/setup
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_test:
     sdk: flutter
   analyzer: ^13.3.0
